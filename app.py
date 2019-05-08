@@ -35,4 +35,4 @@ def restuarants_by_type(type_of_food=''):
     return render_template("index.html",items=myList)
 
 if __name__ == '__main__':
-    app.run(debug=True,host='0.0.0.0')
+    app.run(host='0.0.0.0')
