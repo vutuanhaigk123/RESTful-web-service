@@ -17,7 +17,7 @@ once docker installed we can see docker quick terminal on our system
 4.Now, app will run locally. i.e, if it is run on normal terminal, address will be localhost else docker ip address.                   
   Go to http://localhost:5000/getrestuarants/  to list all restuarants data.                                   
   Go to http://localhost:5000/getrestuarants/22/ for specific restuarant with id "22" (example: 22)                        
-  Go to http://localhost:5000/getrestuarants/type/pizza for specific restuarants with food type "Pizza" (example: pizza)            
+  Go to http://localhost:5000/getrestuarants/type/pizza/ for specific restuarants with food type "Pizza" (example: pizza)            
   
 ## COMMANDS (useful)
 1. List all images: docker images
