@@ -6,14 +6,14 @@ once docker installed we can see docker quick terminal on our system
 
 # Steps
 1. Get inside the app folder in terminal                          
-2. Build the docker image:                
-   ```bash
-   docker build -t flask-test-sample .
-   ```
+2. Build the docker image:                                                    
+      ```bash
+      docker build -t flask-test-sample .
+      ```
 3. once the docker image is created, run the "flask-test-sample" in docker container                        
-  ```bash
-  docker run -d -p 5000:5000 flask-test-sample
-  ```
+      ```bash
+      docker run -d -p 5000:5000 flask-test-sample
+      ```
 4.Now, app will run locally. i.e, if it is run on normal terminal, address will be localhost else docker ip address.                   
   Go to http://localhost:5000/getrestuarants/  to list all restuarants data.                                   
   Go to http://localhost:5000/getrestuarants/22/ for specific restuarant with id "22" (example: 22)                        
