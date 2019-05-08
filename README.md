@@ -23,6 +23,7 @@ once docker installed we can see docker quick terminal on our system
 1. List all images: docker images
 2. List all containers: docker ps
 3. Stop all running containers: docker stop $(docker ps -aq)
-4. Remove all containers: docker rm $(docker ps -aq)
+4. Remove all containers: docker rm $(docker ps -aq)                    
+5. Remove all docker images: docker rmi $(docker images -q)
 
   
