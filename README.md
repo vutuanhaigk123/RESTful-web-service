@@ -6,11 +6,12 @@ once docker installed we can see docker quick terminal on our system
 
 # Steps
 1. Get inside the app folder in terminal                          
-2. Build the docker image:                                                    
+2. Build the docker image:                                           
+
       ```bash
       docker build -t flask-test-sample .
       ```
-3. once the docker image is created, run the "flask-test-sample" in docker container                        
+3. once the docker image is created, run the "flask-test-sample" in docker container                                                            
       ```bash
       docker run -d -p 5000:5000 flask-test-sample
       ```
