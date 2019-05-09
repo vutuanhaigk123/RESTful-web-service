@@ -6,7 +6,7 @@ app = Flask(__name__)
 jData = json.loads(open('./restuarants.json').read())
 data=jData["Restuarants"]
 
-# Intial request Ex: localhost:5000
+# Intial request Ex: http://192.168.99.100:5000/
 @app.route('/')
 def route_main():
     return "RESTful Webservice Started. Request data with proper URL"
